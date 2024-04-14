@@ -56,7 +56,8 @@ const Header = () => {
           <ul className="flex list-none items-center gap-6">
             {NAV_LINKS.map((link, index) => (
               <li key={index}>
-                <Link href={link.href}>{link.label}</Link>
+                {/* <Link href={link.href}>{link.label}</Link> */}
+                <a href={link.href}>{link.label}</a>
               </li>
             ))}
           </ul>
