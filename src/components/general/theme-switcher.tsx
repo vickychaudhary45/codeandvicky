@@ -16,7 +16,7 @@ const ThemeSwitcher = () => {
 
   useEffect(() => {
     setMounted(true);
-    setTheme(theme === "system" || theme === "dark" ? "dark" : "light");
+    // setTheme(theme === "system" || theme === "dark" ? "dark" : "light");
   }, []);
 
   if (!mounted) {
@@ -35,9 +35,9 @@ const ThemeSwitcher = () => {
 };
 
 const ThemedThemeSwitcher = () => (
-  <ThemeProvider defaultTheme="dark">
+  // <ThemeProvider defaultTheme="dark">
     <ThemeSwitcher />
-  </ThemeProvider>
+  // </ThemeProvider>
 );
 
 export default ThemedThemeSwitcher;
