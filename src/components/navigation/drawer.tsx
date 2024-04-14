@@ -10,11 +10,16 @@ const DrawerTrigger = DrawerPrimitive.Trigger;
 
 const DrawerClose = DrawerPrimitive.Close;
 
+
+interface DrawerPortalProps extends React.HTMLAttributes<HTMLDivElement> {
+  className?: string;
+}
+
 const DrawerPortal = ({
   className,
   ...props
-}: DrawerPrimitive.DialogPortalProps) => (
-  <DrawerPrimitive.Portal className={mergeClasses(className)} {...props} />
+}: DrawerPortalProps) => (
+  <DrawerPrimitive.Portal {...props} />
 );
 DrawerPortal.displayName = DrawerPrimitive.Portal.displayName;
 
