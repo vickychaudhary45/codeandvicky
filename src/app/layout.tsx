@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'React Developer',
     'Next.js Developer',
   ],
-  creator: 'vicky Chaudhary',
+  creator: 'Vicky Chaudhary',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -48,11 +48,11 @@ export const metadata: Metadata = {
     creator: '@vickychaudhary45',
     images: '/images/overview.png',
   },
-  icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
-  },
+  // icons: {
+  //   // icon: '/favicon.ico',
+  //   // shortcut: '/favicon-16x16.png',
+  //   // apple: '/apple-touch-icon.png',
+  // },
 };
 
 const googleAnalyticsId = process.env.GOOGLE_ANALYTICS_ID;
