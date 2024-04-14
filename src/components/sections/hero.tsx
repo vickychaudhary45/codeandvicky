@@ -27,21 +27,20 @@ const HeroSection = () => {
         <div className="flex max-w-3xl flex-grow flex-col justify-center gap-8 md:order-first md:items-start md:justify-center 2xl:gap-12">
           <div className="flex flex-col gap-2">
             <Typography variant="h1">
-              Hi, I&apos;m Vicky{' '}
+              Hi, I&apos;m Vicky chaudhary
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
               I&apos;m a full stack developer (React.js & Node.js) with a focus
-              on creating exceptional digital
-              experiences that are fast, accessible, visually appealing, and
-              responsive. Even though I have been creating web applications for
-              over 7 years, I still love it as if it was something new.
+              on creating exceptional digital experiences that are fast, accessible, 
+              visually appealing, and responsive. Even after 1.5 years of crafting web 
+              applications, my passion for it remains as fresh as when I started.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex gap-2">
               <MapPin className="stroke-gray-600" />
-              <Typography>Ahmedabad, India</Typography>
+              <Typography>Delhi, India</Typography>
             </div>
 
             <div className="flex items-center gap-2">
