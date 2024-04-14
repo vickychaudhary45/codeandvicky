@@ -11,7 +11,7 @@ const Footer = () => {
         <Typography className="flex items-center" variant="body3">
           <Copyright className="mr-1 inline-block h-4 w-4" />
           {new Date().getFullYear()} |&nbsp;
-          <Link
+          {/* <Link
             noCustomization
             externalLink
             withUnderline
@@ -27,8 +27,8 @@ const Footer = () => {
             href={EXTERNAL_LINKS.GITHUB_REPO}
           >
             coded
-          </Link>
-          &nbsp;with ❤️️ by Sagar Shah
+          </Link> */}
+          ❤️️ Vicky Chaudhary
         </Typography>
       </div>
     </footer>
