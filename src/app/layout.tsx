@@ -1,52 +1,52 @@
-import Script from 'next/script';
-import { Inter } from 'next/font/google';
-import { Metadata } from 'next';
+import Script from "next/script";
+import { Inter } from "next/font/google";
+import { Metadata } from "next";
 
-import './globals.css';
-import Header from '@/components/layout/header';
-import { Providers } from '@/lib/providers';
-import Footer from '@/components/layout/footer';
+import "./globals.css";
+import Header from "@/components/layout/header";
+import { Providers } from "@/lib/providers";
+import Footer from "@/components/layout/footer";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
-const title = 'Vicky Chaudhary | Full Stack Developer From Delhi, India.';
+const title = "Vicky Chaudhary | Full Stack Developer From Delhi, India.";
 const description =
-  'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Delhi, India.';
-const url = 'https://portfolioo-websitee.netlify.app/';
+  "A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Delhi, India.";
+const url = "https://portfolioo-websitee.netlify.app/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
   title,
   description,
   keywords: [
-    'Frontend Developer',
-    'Full Stack Developer',
-    'React Developer',
-    'Next.js Developer',
+    "Frontend Developer",
+    "Full Stack Developer",
+    "React Developer",
+    "Next.js Developer",
   ],
-  creator: 'Vicky Chaudhary',
+  creator: "Vicky Chaudhary",
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
   openGraph: {
-    type: 'website',
+    type: "website",
     url,
     title,
     description,
     siteName: title,
     images: [
       {
-        url: '/images/overview.png',
+        url: "/images/overview.png",
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title,
     description,
-    creator: '@vickychaudhary45',
-    images: '/images/overview.png',
+    creator: "@vickychaudhary45",
+    images: "/images/overview.png",
   },
   // icons: {
   //   // icon: '/favicon.ico',
@@ -81,6 +81,21 @@ export default function RootLayout({
           </Script>
         </head>
       ) : null} */}
+      <head>
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-MV3VSTPXB3"
+        ></script>
+        <script>
+          {` 
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-MV3VSTPXB3');
+            `}
+        </script>
+      </head>
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
         <Providers>
           <Header />
