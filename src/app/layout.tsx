@@ -64,7 +64,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
-      {/* {googleAnalyticsId ? (
+      {googleAnalyticsId ? (
         <head>
           <Script
             async
@@ -80,9 +80,10 @@ export default function RootLayout({
           `}
           </Script>
         </head>
-      ) : null} */}
+      ) : null}
+      {/* <!-- Google tag (gtag.js) --> */}
+      {/* {googleAnalyticsId ? (
       <head>
-        {/* <!-- Google tag (gtag.js) --> */}
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-MV3VSTPXB3"
@@ -96,6 +97,7 @@ export default function RootLayout({
             `}
         </script>
       </head>
+      ) : null} */}
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
         <Providers>
           <Header />
