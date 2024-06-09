@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import { MapPin } from 'lucide-react';
+import Image from "next/image";
+import { MapPin } from "lucide-react";
 
-import VickyHeadshot from '/public/images/vicky_headed_newbg.jpg';
-import SocialIcons from '@/components/data-display/social-icons';
-import Typography from '@/components/general/typography';
-import Container from '@/components/layout/container';
+import VickyHeadshot from "/public/images/vicky_headed_new.png";
+import SocialIcons from "@/components/data-display/social-icons";
+import Typography from "@/components/general/typography";
+import Container from "@/components/layout/container";
 
 const HeroSection = () => {
   return (
@@ -17,8 +17,9 @@ const HeroSection = () => {
               src={VickyHeadshot}
               alt="Headshot of Vicky"
               className="absolute z-10 h-[280px] w-[240px] border-8 border-gray max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]"
-              style={{ objectFit: 'cover' }}
-            ></Image>
+              style={{ objectFit: "cover" }}
+              priority
+            />
             <div className="absolute h-[280px] w-[280px] border-8 border-transparent bg-gray-200 max-md:top-5 md:bottom-0 md:right-0 md:h-[320px] md:w-[280px]"></div>
           </div>
         </div>
@@ -32,9 +33,10 @@ const HeroSection = () => {
             </Typography>
             <Typography>
               I&apos;m a full stack developer (React.js & Node.js) with a focus
-              on creating exceptional digital experiences that are fast, accessible, 
-              visually appealing, and responsive. Even after 1.5 years of crafting web 
-              applications, my passion for it remains as fresh as when I started.
+              on creating exceptional digital experiences that are fast,
+              accessible, visually appealing, and responsive. Even after 1.5
+              years of crafting web applications, my passion for it remains as
+              fresh as when I started.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
