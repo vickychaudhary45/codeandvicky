@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 const title = "Vicky Chaudhary | Full Stack Developer From Delhi, India.";
 const description =
   "A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Delhi, India.";
-const url = "https://portfolioo-websitee.netlify.app/";
+const url = "https://asvic.netlify.app/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
