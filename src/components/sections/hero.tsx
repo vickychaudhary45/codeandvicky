@@ -34,7 +34,7 @@ const HeroSection = () => {
             <Typography>
               I&apos;m a full stack developer (React.js & Node.js) with a focus
               on creating exceptional digital experiences that are fast,
-              accessible, visually appealing, and responsive. Even after 1.5
+              accessible, visually appealing, and responsive. Even after
               years of crafting web applications, my passion for it remains as
               fresh as when I started.
             </Typography>
