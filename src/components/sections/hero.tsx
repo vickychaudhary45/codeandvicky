@@ -5,6 +5,7 @@ import VickyHeadshot from "/public/images/vicky_headed_new.png";
 import SocialIcons from "@/components/data-display/social-icons";
 import Typography from "@/components/general/typography";
 import Container from "@/components/layout/container";
+import DownloadCV from "@/components/general/download-cv";
 
 const HeroSection = () => {
   return (
@@ -54,8 +55,11 @@ const HeroSection = () => {
               </div>
               <Typography>Available for new projects</Typography>
             </div>
+            <div className="flex gap-2">
+              <DownloadCV />
+              <SocialIcons />
+            </div>
           </div>
-          <SocialIcons />
         </div>
       </div>
     </Container>
