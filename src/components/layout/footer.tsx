@@ -28,7 +28,7 @@ const Footer = () => {
           >
             coded
           </Link> */}
-          ❤️️ Vicky Chaudhary
+          Vicky ❤️️
         </Typography>
       </div>
     </footer>

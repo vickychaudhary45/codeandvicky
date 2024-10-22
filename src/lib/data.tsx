@@ -191,9 +191,9 @@ export const EXPERIENCES: ExperienceDetails[] = [
     darkModeLogo: LogoGreenApexLight,
     logoAlt: "Whizlabs logo",
     position: "Full Stack Developer",
-    startDate: new Date(2023, 6),
-    currentlyWorkHere: true,
-    // endDate: new Date(2021, 9),
+    startDate: new Date(2023, 1),
+    // currentlyWorkHere: true,
+    endDate: new Date(2024, 9),
     summary: [
       "Acted as Developer in different projects.",
       "Brainstormed new ideas & gathered requirements for internal projects.",
